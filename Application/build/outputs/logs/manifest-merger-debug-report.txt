@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:18:1-40:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/bionic/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b173cb4936127e783e2955a615387870/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/8abd2e0b17207d5f773472cf7ab60a2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/e3bcb48a752f1e732d9c62bda45f2748/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/94aa6202df3071e244e237718d1f5306/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/183919c41563d28d9236aa51ffddabea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /home/bionic/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/38b38c2fd468d98f0bfc9fef32fc5e35/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/5b2b19f52e4b569b6abf359426953523/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/47ceb478b32af0bad3222180666440bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01123b8cd16efa80ccfbc8ec4ea57375/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/b05bff0366212b2f6d53596ba0aed002/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/1dcb5dfadf94be8d7750163e6a1bf46a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/61f77b32b0667ffbb521092bbffdb1e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/852978fcaff3c5b2041accd1a216106c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/bionic/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce82a8bef40a382549c198cd642a8bd6/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:19:5-47
+	xmlns:android
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:23:5-60
+	android:name
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:23:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:24:5-70
+	android:name
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:24:19-67
+application
+ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:26:5-38:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/bionic/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b173cb4936127e783e2955a615387870/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/bionic/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b173cb4936127e783e2955a615387870/AndroidManifest.xml:7:5-12:19
+	android:label
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:28:9-45
+	android:allowBackup
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:26:18-44
+	android:theme
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:29:9-45
+activity#com.example.android.camera2basic.CameraActivity
+ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:31:9-37:20
+	android:label
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:32:19-51
+	android:name
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:31:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+INJECTED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/bionic/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b173cb4936127e783e2955a615387870/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/bionic/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b173cb4936127e783e2955a615387870/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/8abd2e0b17207d5f773472cf7ab60a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/8abd2e0b17207d5f773472cf7ab60a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/e3bcb48a752f1e732d9c62bda45f2748/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/e3bcb48a752f1e732d9c62bda45f2748/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/94aa6202df3071e244e237718d1f5306/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/94aa6202df3071e244e237718d1f5306/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/183919c41563d28d9236aa51ffddabea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/183919c41563d28d9236aa51ffddabea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/bionic/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/38b38c2fd468d98f0bfc9fef32fc5e35/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/bionic/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/38b38c2fd468d98f0bfc9fef32fc5e35/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/5b2b19f52e4b569b6abf359426953523/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/5b2b19f52e4b569b6abf359426953523/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/47ceb478b32af0bad3222180666440bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/47ceb478b32af0bad3222180666440bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01123b8cd16efa80ccfbc8ec4ea57375/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01123b8cd16efa80ccfbc8ec4ea57375/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/b05bff0366212b2f6d53596ba0aed002/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/b05bff0366212b2f6d53596ba0aed002/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/1dcb5dfadf94be8d7750163e6a1bf46a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/1dcb5dfadf94be8d7750163e6a1bf46a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/61f77b32b0667ffbb521092bbffdb1e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/61f77b32b0667ffbb521092bbffdb1e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/852978fcaff3c5b2041accd1a216106c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/bionic/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/852978fcaff3c5b2041accd1a216106c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/bionic/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce82a8bef40a382549c198cd642a8bd6/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/bionic/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce82a8bef40a382549c198cd642a8bd6/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+INJECTED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+		ADDED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/bionic/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b173cb4936127e783e2955a615387870/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/bionic/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b173cb4936127e783e2955a615387870/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/bionic/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b173cb4936127e783e2955a615387870/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/bionic/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b173cb4936127e783e2955a615387870/AndroidManifest.xml:9:13-64

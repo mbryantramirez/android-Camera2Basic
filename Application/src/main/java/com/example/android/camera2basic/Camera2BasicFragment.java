@@ -57,8 +57,10 @@ import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -165,6 +167,11 @@ public class Camera2BasicFragment extends Fragment
      * An {@link AutoFitTextureView} for camera preview.
      */
     private AutoFitTextureView mTextureView;
+
+    /**
+     * An {@link ImageView} for displaying saved image
+     */
+    private ImageView imageView;
 
     /**
      * A {@link CameraCaptureSession } for camera preview.
@@ -429,6 +436,7 @@ public class Camera2BasicFragment extends Fragment
         view.findViewById(R.id.picture).setOnClickListener(this);
         view.findViewById(R.id.info).setOnClickListener(this);
         mTextureView = (AutoFitTextureView) view.findViewById(R.id.texture);
+        imageView = (ImageView) view.findViewById(R.id.saved_iamge);
     }
 
     @Override
@@ -889,6 +897,7 @@ public class Camera2BasicFragment extends Fragment
         switch (view.getId()) {
             case R.id.picture: {
                 takePicture();
+                Picasso.get().load(mFile).into(imageView);
                 break;
             }
             case R.id.info: {
