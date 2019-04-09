@@ -1,0 +1,4 @@
+#Mon Apr 08 22:33:22 EDT 2019
+base.0=/home/bionic/AndroidStudioProjects/builds/android-Camera2Basic/Application/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex

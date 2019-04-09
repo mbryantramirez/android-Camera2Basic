@@ -18,18 +18,43 @@ package com.example.android.camera2basic;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import java.io.File;
 
-public class CameraActivity extends AppCompatActivity {
+public class CameraActivity extends AppCompatActivity implements CameraInteractionListener {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_camera);
-        if (null == savedInstanceState) {
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.container, Camera2BasicFragment.newInstance())
-                    .commit();
-        }
-    }
+  private File lastPictureSaved;
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_camera);
+    goToTakeImageFragment();
+  }
+
+  @Override
+  public void addCameraFragment() {
+    getSupportFragmentManager().beginTransaction()
+        .replace(R.id.container, Camera2BasicFragment.newInstance())
+        .addToBackStack(null)
+        .commit();
+  }
+
+  @Override
+  public void goToTakeImageFragment() {
+    getSupportFragmentManager().beginTransaction()
+        .replace(R.id.container, TakeImageFragment.newInstance())
+        .commit();
+  }
+
+  @Override
+  public File getCameraFile() {
+    return lastPictureSaved;
+  }
+
+  @Override
+  public void saveCameraFile(File file) {
+    lastPictureSaved = file;
+  }
+
 
 }
